@@ -20,7 +20,7 @@ h3 {
     font-weight: 400;
 }
 
-nav a,
+nav li,
 nav span,
 #social li,
 footer {
@@ -51,6 +51,7 @@ dt {
 
     body {
         margin: 0;
+        overflow-x: hidden;
     }
 
     h2 {
@@ -385,7 +386,7 @@ dt {
 
     body {
         margin: 0;
-        width: 100%;
+        overflow-x: hidden;
     }
 
     h2 {
@@ -766,7 +767,7 @@ dt {
 
     body {
         margin: 0;
-
+        overflow-x: hidden;
     }
 
     h2 {
