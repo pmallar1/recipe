@@ -143,44 +143,46 @@ dt {
         margin: 0;
     }
 
-.stars {
- margin:1px;
- font-size:10px;
- position:relative;
- display: inline-block;
- width: 0px;
- height: 0px;
- border-right: 1em solid transparent;
- border-bottom: 0.7em solid yellow;
- border-left: 1em solid transparent;
- transform: rotate(35deg);
-}
-.stars:before {
- border-bottom: 0.8em solid yellow;
- border-left: 0.3em solid transparent;
- border-right: 0.3em solid transparent;
- position: absolute;
- height: 0;
- width: 0;
- top: -0.45em;
- left: -0.65em;
- display: inline;
- content:"";
- transform: rotate(-35deg);
-}
-.stars:after {
- position: absolute;
- display: inline;
- top: 0.03em;
- left: -1.05em;
- width: 0;
- height: 0;
- border-right: 1em solid transparent;
- border-bottom: 0.7em solid yellow;
- border-left: 1em solid transparent;
- transform: rotate(-70deg);
- content:"";
-}
+    .stars {
+        margin: 1px;
+        font-size: 10px;
+        position: relative;
+        display: inline-block;
+        width: 0px;
+        height: 0px;
+        border-right: 1em solid transparent;
+        border-bottom: 0.7em solid yellow;
+        border-left: 1em solid transparent;
+        transform: rotate(35deg);
+    }
+
+    .stars:before {
+        border-bottom: 0.8em solid yellow;
+        border-left: 0.3em solid transparent;
+        border-right: 0.3em solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -0.45em;
+        left: -0.65em;
+        display: inline;
+        content: "";
+        transform: rotate(-35deg);
+    }
+
+    .stars:after {
+        position: absolute;
+        display: inline;
+        top: 0.03em;
+        left: -1.05em;
+        width: 0;
+        height: 0;
+        border-right: 1em solid transparent;
+        border-bottom: 0.7em solid yellow;
+        border-left: 1em solid transparent;
+        transform: rotate(-70deg);
+        content: "";
+    }
 
     #sidedishes dl {
         display: grid;
@@ -305,7 +307,7 @@ dt {
         display: block;
         position: absolute;
         top: 7%;
-        left: 4%;
+        left: 3%;
         text-transform: uppercase;
     }
 
@@ -318,7 +320,7 @@ dt {
         position: absolute;
         stroke: #eb5628;
         top: 1%;
-        left: 1%;
+        left: 0;
     }
 
     #signin li {
@@ -326,7 +328,7 @@ dt {
         position: absolute;
         stroke: blue;
         top: 7%;
-        right: 19%;
+        right: 85px;
         white-space: nowrap;
         text-transform: uppercase;
     }
@@ -340,7 +342,7 @@ dt {
         position: absolute;
         stroke: #eb5628;
         top: 1%;
-        right: 6%;
+        right: 7%;
     }
 
     #lome {
@@ -353,7 +355,7 @@ dt {
         position: absolute;
         stroke: white;
         top: 0;
-        left: 17%;
+        left: 16%;
         background-color: #eb5628;
         padding-left: 20%;
         padding-right: 20%;
@@ -545,9 +547,9 @@ dt {
     }
 
     .stars {
-        margin:1px;
-        font-size:10px;
-        position:relative;
+        margin: 1px;
+        font-size: 10px;
+        position: relative;
         display: inline-block;
         width: 0px;
         height: 0px;
@@ -555,8 +557,9 @@ dt {
         border-bottom: 0.7em solid yellow;
         border-left: 1em solid transparent;
         transform: rotate(35deg);
-       }
-       .stars:before {
+    }
+
+    .stars:before {
         border-bottom: 0.8em solid yellow;
         border-left: 0.3em solid transparent;
         border-right: 0.3em solid transparent;
@@ -566,10 +569,11 @@ dt {
         top: -0.45em;
         left: -0.65em;
         display: inline;
-        content:"";
+        content: "";
         transform: rotate(-35deg);
-       }
-       .stars:after {
+    }
+
+    .stars:after {
         position: absolute;
         display: inline;
         top: 0.03em;
@@ -580,8 +584,8 @@ dt {
         border-bottom: 0.7em solid yellow;
         border-left: 1em solid transparent;
         transform: rotate(-70deg);
-        content:"";
-       }
+        content: "";
+    }
 
     #sidedishes img {
         padding-right: -90px;
@@ -1146,7 +1150,7 @@ dt {
         top: -15%;
         left: 3%;
         background-color: #eb5628;
-        padding: 2.15%;
+        padding: 33px;
         margin: 0;
     }
 
