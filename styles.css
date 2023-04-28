@@ -381,29 +381,12 @@ dt {
         top: 0;
     }
 
-    #search li {
-        z-index: 2;
-        margin-left: -85px;
-        margin-top: -30px;
-        list-style: none;
-
-    }
-
-    #search svg {
-        z-index: 2;
-        stroke: white;
-        display: block;
-        position: absolute;
-        margin-left: 156px;
-        margin-top: -28px;
-    }
-
-    textarea {
-        position: absolute;
-        margin-top: -40px;
+        input {
+        position: relative;
+        top: -30px;
         margin-left: -89px;
         width: 270px;
-        height: 26.4px;
+        height: 30px;
         border: 4px solid #eb5628;
         line-height: 2;
 
@@ -411,14 +394,21 @@ dt {
 
     button {
         display: block;
-        position: absolute;
-        height: 38px;
-        width: 50px;
-        left: 170%;
-        margin-top: -40px;
+        position: relative;
+        height: 40px;
+        margin-top: -70px;
+        left: 75%;
         background-color: #eb5628;
         border-style: none;
     }
+
+    button svg {
+        position: relative;
+        stroke: white;
+        display: block;
+        z-index: 9;
+    }
+
 
 }
 
@@ -802,44 +792,36 @@ dt {
         top: 0;
     }
 
-    #search li {
-        display: none;
-        position: absolute;
-        z-index: 2;
-        margin-left: 300px;
-        margin-top: -110px;
-        list-style: none;
 
-    }
 
-    #search svg {
-        z-index: 2;
-        stroke: white;
-        display: block;
-        position: absolute;
-        right: 25%;
-        margin-top: -120px;
-    }
-
-    textarea {
-        position: absolute;
-        margin-top: -120.5px;
+    input {
+        position: relative;
+        top: -120px;
         margin-left: 294px;
         width: 240px;
-        height: 26.5px;
+        height: 30px;
         border: 4px solid #eb5628;
         line-height: 2;
     }
 
     button {
         display: block;
-        position: absolute;
-        height: 38px;
-        width: 50px;
-        left: 69%;
-        margin-top: -120px;
+        position: relative;
+        padding: auto;
+        height: 40px;
+        left: 75%;
+        top: -90px;
         background-color: #eb5628;
         border-style: none;
+    }
+
+    #button svg {
+        z-index: 2;
+        stroke: white;
+        display: block;
+        position: relative;
+        right: 25%;
+        margin-top: -120px;
     }
 
 }
@@ -1043,49 +1025,6 @@ dt {
 
     }
 
-    #search {
-        display: block;
-        position: absolute;
-        left: 37%;
-        margin: 0;
-        z-index: 2;
-        padding-right: 20px;
-
-    }
-
-    #search li {
-        z-index: 2;
-        margin-left: -130px;
-
-    }
-
-    #search svg {
-        z-index: 2;
-        stroke: white;
-        transform: translate(186px, 89px);
-    }
-
-    #search #searchbar {
-        display: block;
-        position: absolute;
-        margin: 0;
-        height: 41px;
-        width: 300px;
-        border: 4px solid #eb5628;
-        left: 35%;
-        bottom: -100px;
-    }
-
-    button {
-        display: block;
-        position: absolute;
-        height: 50px;
-        width: 60px;
-        left: 10%;
-        background-color: #eb5628;
-        border-style: none;
-    }
-
     #directions dt {
         float: left;
         clear: left;
@@ -1203,29 +1142,11 @@ dt {
         top: 0;
     }
 
-    #search li {
-        display: none;
-        position: absolute;
-        z-index: 2;
-        margin-left: 490px;
-        margin-top: 70px;
-        list-style: none;
-
-    }
-
-    #search svg {
-        z-index: 2;
-        stroke: white;
+    input {
         display: block;
-        position: absolute;
-        right: 53.6%;
-        margin-top: -33px;
-    }
-
-
-    textarea {
-        top: 171px;
-        left: 183px;
+        position: relative;
+        top: 50px;
+        left: 90px;
         height: 37px;
         width: 300px;
         line-height: 3;
@@ -1234,13 +1155,20 @@ dt {
 
     button {
         display: block;
-        position: absolute;
-        height: 49px;
+        position: relative;
+        height: 47px;
         width: 50px;
         left: 57%;
-        margin-top: 51px;
+        margin-top: 93px;
         background-color: #eb5628;
         border-style: none;
+    }
+
+    button svg {
+        z-index: 2;
+        stroke: white;
+        display: block;
+
     }
 
 }
