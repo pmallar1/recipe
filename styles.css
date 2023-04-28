@@ -22,8 +22,10 @@ h3 {
 
 nav a,
 nav span,
+nav li,
 #social li,
-footer {
+menu li,
+footer p{
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
@@ -83,6 +85,9 @@ dt {
         position: absolute;
         margin-top: 40px;
         overflow: hidden;
+        text-transform: uppercase;
+        color: #eb5628;
+        font-weight: ;
         white-space: break-spaces;
 
     }
@@ -306,8 +311,8 @@ dt {
     #mainnav li {
         display: block;
         position: absolute;
-        top: 7%;
-        left: 3%;
+        top: 5%;
+        left: 17px;
         text-transform: uppercase;
     }
 
@@ -327,8 +332,8 @@ dt {
         display: block;
         position: absolute;
         stroke: blue;
-        top: 7%;
-        right: 85px;
+        top: 5%;
+        right: 73px;
         white-space: nowrap;
         text-transform: uppercase;
     }
@@ -705,7 +710,7 @@ dt {
         display: block;
         position: absolute;
         margin-top: -20px;
-        right: 19%;
+        margin-right: -8px;
         white-space: nowrap;
         text-transform: uppercase;
     }
@@ -1042,15 +1047,16 @@ dt {
     }
 
     footer p {
-        margin-left: 80px;
+        
         display: block;
         position: absolute;
-        bottom: 40%;
-        left: 70%;
+        bottom: 45%;
+        left: 60%;
         white-space: nowrap;
         font-weight: bold;
         text-transform: uppercase;
         text-align: center;
+        line-height: 20px;
     }
 
     #signin li {
