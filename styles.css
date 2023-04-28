@@ -97,6 +97,7 @@ dt {
         position: relative;
         max-width: 414px;
         margin: 0;
+        margin-top: 10px;
     }
 
     h3 {
@@ -289,9 +290,9 @@ dt {
     #socials menu li {
         text-align: center;
         position: absolute;
-        display: inline;
+        display: inline-flex;
         margin-top: 40px;
-        margin-left: 55px;
+        margin-left: 60px;
         color: #eb5628;
         font-weight: border;
         text-transform: uppercase;
@@ -306,6 +307,10 @@ dt {
         text-align: center;
         position: relative;
         display: block;
+    }
+
+    footer p {
+        text-transform: uppercase;
     }
 
     #mainnav li {
